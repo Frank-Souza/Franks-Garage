@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Frank's Garage Sale</title>
+    <style>
+        #imgSize {
+            width: 80px;
+            height: 80px;
+        }
+    </style>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body id="surprise">
+    <h1 class="text-center">Frank's Garage Sale</h1>
+    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center border" id="s">
+                <h3>Old Shirt</h3>
+                <img id="imgSize" src="/Midway-Project/img/old_shirt.jpg">
+                <p>$10</p>
+                <button class="btn btn-primary" id="shirt-add">Add to Cart</button>
+            </div>
+            <div class="col text-center border" id="Shoes">
+                <h3>Shoes</h3>
+                <img id="imgSize" src="/Midway-Project/img/shoes.jpg">
+                <p>$23</p>
+                <button class="btn btn-primary" id="shoes-add">Add to Cart</button>
+            </div>
+            <div class="col text-center border" id="Baseball Card">
+                <h3>Baseball Card</h3>
+                <img id="imgSize" src="/Midway-Project/img/card.webp">
+                <p>$5</p>
+                <button class="btn btn-primary" id="card-add">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col text-center border" id="Pen">
+                <h3>Pen</h3>
+                <img id="imgSize" src="/Midway-Project/img/pen.png">
+                <p>$1</p>
+                <button class="btn btn-primary" id="pen-add">Add to Cart</button>
+            </div>
+            <div class="col text-center border" id="Pants">
+                <h3>Pants</h3>
+                <img id="imgSize" src="/Midway-Project/img/pants.jpg">
+                <p>$15</p>
+                <button class="btn btn-primary" id="pants-add">Add to Cart</button>
+            </div>
+            <div class="col text-center border" id="Bat">
+                <h3>Bat</h3>
+                <img id="imgSize" src="/Midway-Project/img/bat.jpg">
+                <p>$25</p>
+                <button class="btn btn-primary" id="bat-add">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="text-center">
+        <h2>Cart</h2>
+        <p id="items">Items in cart: 0</p>
+        <p id="cart">Total price: $0</p>
+        <button class="btn btn-primary" id="checkout">Checkout</button>
+    </div>
+
+    <!-- Javascript -->
+    <script src="shoppingCart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
